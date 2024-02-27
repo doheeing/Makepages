@@ -1,0 +1,57 @@
+.btn-outline-danger{
+    color:chocolate;
+    border-color:chocolate;
+  }
+  .btn-outline-danger:hover{
+    background-color:chocolate;
+    color:white;
+    boder-color:chocolate;
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+footer{
+    background-color: black;
+    color: white;
+}
+.second-line a{
+    color: white;
+    text-decoration: none;
+}
+.second-line-items{
+    font-size: 13px;
+}
+}
+.first-line{
+    border-bottom: 1px solid #392d23
+}
+.thrid-line{
+    display: none;
+}
+@media screen and (max-width:48rem) {
+    .first-line{
+        text-align: center;
+    }
+}
+@media screen and (max-width:48rem) {
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23
+    }
+}
+@media screen and (max-width:48rem) {
+    .first-line{
+        text-align: center;
+    }
+@media screen and (max-width:48rem) {
+    .thrid-line{
+        display: block;
+    }
+}
+@media screen and (max-width:48rem) {
+    .items-first{
+        display: none;
+    }
+}
+
