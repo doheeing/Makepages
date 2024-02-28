@@ -1,0 +1,212 @@
+body{
+    font-family: "Pretendard";
+    background-color: #fbfbfd;
+    width: 100%;
+    height: 100%;
+
+    padding-right: 0;
+    width: 100vw;
+}
+.navbar-style{
+    background-color: black;
+}
+.dropdown a{
+    color: rgba(255, 255, 255, .8);
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+nav{
+    background-color: #161617CC;
+    width: 100vw;
+    margin: 0;
+}
+.nav-item_style{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 0.5rem;
+    text-decoration: none;
+}
+.nav-item_style_apple{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 3px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.dropdown-item{
+    color: black;
+}
+main{
+    width: 99.5vw;
+}
+
+.main_card{
+    width: 900px;
+    height: 569px;
+}
+.main_card_select{
+    display: flex;
+    justify-content: center;
+}
+.main_card_1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg);
+    background-size: cover;
+    color: #f5f5f7;
+}
+.main_card_1 h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.main_card_1 p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.main_card_1 a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.main_card_2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_medium_2x.jpg);
+    background-size: cover;
+    color: #161617CC;
+}
+.main_card_2 h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.main_card_2 p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.main_card_2 a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.main_card_3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.apple.com/kr/home/bk/images/heroes/back-to-school-2023/hero_bts2023_startframe__f787lg06y3ue_medium_2x.jpg);
+    background-size: cover;
+    color: #161617CC;
+}
+.main_card_3 h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.main_card_3 p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.main_card_3 a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.mini-card-style{
+    width: 100vw;
+    height: 100vh;
+
+}
+.mini-card-1{
+    background-image: url(https://www.apple.com/kr/home/bk/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium_2x.jpg);
+    background-size: cover;
+    color: #f5f5f7;
+}
+.mini-card-style h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.mini-card-style a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.series{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mini-card-2{
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium_2x.jpg);
+    background-size: cover;
+    color:#161617CC;
+}
+.mini-card-3{
+    background-image: url(https://www.apple.com/kr/home/bk/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    background-size: cover;
+    color:#161617CC;
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-position: 46% 4%;
+}
+.mini-card-4{
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-size: cover;
+    color: #f5f5f7;
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-position: 46% 4%;
+}
+footer{
+    background-color: #F5F5F7;
+    height: 650px;
+}
+.footer-style{
+    color: #0000008F;
+    font-size: 12px
+}
+.footer-firstline{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+.footer-manu-first-line{
+    color: #000000E0;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.align-items-start a{
+    text-decoration: none;
+    color: #000000B8;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.footer-third-line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    padding-bottom: 19px;
+    margin-bottom: 16px;
+}
+.footer-forth-line{
+    display: flex;
+}
+.footer-forth-line-first{
+    margin-right: 50px;
+}
+.footer-forth-line a{
+    text-decoration: none;
+    padding-right: 9px;
+    padding-left: 9px;
+    color: #0000008F;
+}
+.footer-forth-line-second{
+    margin-left: 50px;
+}
